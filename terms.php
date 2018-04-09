@@ -16,7 +16,7 @@
     <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service. This Terms and Conditions agreement for https://gridcoin.ddns.net is powered by TermsFeed.</p>
     <h2>Links To Other Web Sites</h2>
         <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by Gridcoin Projects.</p>
-        <p>Dridcoin Projects has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Gridcoin Projects shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+        <p>Gridcoin Projects has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Gridcoin Projects shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
         <p>We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.</p>
     <h2>Termination</h2>
         <p>We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
