@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-    <?php include('resources/head.php');?>
+    <?php include('resources/head_1hr_cache.php');?>
     <title>Listings Process</title>
 </head>
 
