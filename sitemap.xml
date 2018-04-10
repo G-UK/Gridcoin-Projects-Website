@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://gridcoin.ddns.net/</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/GRCHorizontal.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/boinc_logo_3d.png</image:loc>
+      <image:title>boinc logo</image:title>
+      <image:caption>boinc logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/disclaimer.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/listing_process.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/cookies_policy.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/terms.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/under_construction.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/under_construction.gif</image:loc>
+      <image:title>under construction</image:title>
+      <image:caption>under construction</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/privacy_policy.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/index.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/GRCHorizontal.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/boinc_logo_3d.png</image:loc>
+      <image:title>boinc logo</image:title>
+      <image:caption>boinc logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Last Update` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Recommended Status (Experimental)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Last Update` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Recommended Status (Experimental)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Calculated Status (Experimental)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Calculated Status (Experimental)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Calculated Status` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Current Status` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Calculated Status` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Current Status` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Z.C.D (Zero Days Credit)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Z.C.D (Zero Days Credit)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`W.A.S (Work Availability Score)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Compute Speed (GFlops)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`W.A.S (Work Availability Score)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Compute Speed (GFlops)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Total Credit` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Total Credit` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Vote (Date)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Vote (In/Out)` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Vote (Date)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Vote (In/Out)` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Name` ASC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/project_listings.php?orderBy=`Project Name` DESC</loc>
+    <lastmod>2018-04-10</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+</urlset>
+<!--<guid value="94a94363-3c88-43ae-9808-dd927ae039bb" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
