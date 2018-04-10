@@ -1,6 +1,12 @@
-<header>
-    <img src="resources/images/gridcoin_blocks.png" alt="gridcoin logo" class="headerimg"> 
-    <h1>Gridcoin Projects</h1>
+<header class="col-12">
+    <div class="col-3 col-s-12 col-m-3">
+        <img src="resources/images/gridcoin_blocks.png" alt="gridcoin logo" class="headerimg" />
+    </div>
+    <div class="col-6 col-s-12 col-m-9">
+        <h1>Gridcoin Projects</h1>
+    </div>
+    <div class="col-3">
+    </div>
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = _paq || [];

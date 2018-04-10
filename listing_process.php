@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-    <?php include('resources/head_1hr_cache.php');?>
+    <?php include('resources/head.php');?>
     <title>Listings Process</title>
 </head>
 
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section>
+<section class="col-12">
     <h2>Management of listed BOINC projects (Greylisting)</h2>
     <p>The Greylist enables temporary removal and relisting of BOINC projects from the Gridcoin Whitelist based upon some simple rules.</p>
     <p>A project will be automatically Greylisted if ANY ONE of the following requirements are met:</p>
@@ -23,7 +23,7 @@
         <li>Number of Zero Credit Days (ZCD) ≤ 7 in 20</li>
     </ul>
 </section>
-<section>
+<section class="col-12">
     <h2>Whitelisting a new BOINC project</h2>
     <p>A project is eligible to be whitelisted only if it meets ALL of the following criteria:</p>
     <ul>
@@ -60,7 +60,7 @@
         <li>Project is added to whitelist on the agreed date.</li>
     </ol>
 </section>
-<section>
+<section class="col-12">
 <h2>Notes &amp; References</h1>
     <h3>Work Availability Score</h2>
     <pre>WAS = Green If (Mean daily credit for 7 Days > (0.1 * Mean daily credit for 40 Days)) Else Red</pre>
@@ -78,7 +78,7 @@
 
     <p>Currently removal/re-adding will need to be requested on the Gridcoin Slack # boinc_projects channel for an admin with whitelisting permissions to manually process.</p>
 </section>
-<section>
+<section class="col-12">
 <h2>Change Log</h1>
 <p>v1.0: 20th Jan 2018</p>
 <ul>
@@ -128,7 +128,9 @@
     <li>Reworded re-whitelisting requirement point 3</li>
 </ul>
 <p>v0.1: 13th Dec 2017</p>
+<ul> 
     <li>Initial Draft</li>
+</ul>
     <br><br>
 </section>
 <?php include('resources/footer.php');?>

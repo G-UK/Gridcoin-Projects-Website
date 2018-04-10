@@ -8,7 +8,7 @@
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section>
+<section class="col-12">
 <h2>Cookies Policy</h2>
     <p>Last updated: April 07, 2018</p>
     <p>Gridcoin Projects ("us", "we", or "our") uses cookies on https://gridcoin.ddns.net (the "Service"). By using the Service, you consent to the use of cookies.</p>

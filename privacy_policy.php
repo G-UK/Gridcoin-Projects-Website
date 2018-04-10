@@ -8,7 +8,7 @@
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section>
+<section class="col-12">
 <h2>Privacy Policy</h2>
     <p>Effective date: April 06, 2018</p>
     <p>Gridcoin Projects ("us", "we", or "our") operates the https://gridcoin.ddns.net website (the "Service").</p>

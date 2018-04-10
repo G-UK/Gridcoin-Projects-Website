@@ -8,7 +8,7 @@
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section>
+<section class="col-12">
 <h2>Disclaimer</h2>
     <p>Last updated: April 06, 2018</p>
     <p>The information contained on https://gridcoin.ddns.net website (the "Service") is for general information purposes only.</p>

@@ -8,7 +8,7 @@
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section>
+<section class="col-12">
 <h2>Terms &amp; Conditions</h1>
     <p>Last updated: April 06, 2018</p>
     <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://gridcoin.ddns.net website (the "Service") operated by Gridcoin Projects ("us", "we", or "our").</p>

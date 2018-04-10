@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-GB">
 <head>
-    <?php include('resources/head.php');?>
+    <?php include('resources/head_1hr_cache.php');?>
     <title>Gridcoin Project Listings</title>
     <script src="resources/scripts/colour_projectlist.js"></script>
 </head>
@@ -9,74 +9,74 @@
 <body>
 <?php include('resources/header.php');?>
 <?php include('resources/navbar.php');?>
-<section style="overflow-x:auto;">
+<section class="col-12" style="overflow-x:auto;">
 
 <?php
 echo "<table class=\"projectslist\">";
 echo 
     "<tr>
-    <th>
-        Project Name<br><br>
-        <a href=\"?orderBy=`Project Name` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Name` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-name\">
+        <div class=\"title\">Project Name</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Project Name` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Project Name` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Vote (In/Out)<br>
-        <a href=\"?orderBy=`Vote (In/Out)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\">
-        </a><a href=\"?orderBy=`Vote (In/Out)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-votes\">
+        <div class=\"title\">Vote (In/Out)</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Vote (In/Out)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Vote (In/Out)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Vote (Date)<br><br>
-        <a href=\"?orderBy=`Vote (Date)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Vote (Date)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-votes\">
+        <div class=\"title\">Vote (Date)</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Vote (Date)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Vote (Date)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Project Total Credit<br>
-        <a href=\"?orderBy=`Project Total Credit` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Total Credit` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-credit\">
+        <div class=\"title\">Total Credit</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Project Total Credit` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Project Total Credit` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-
-   <th>
-        Project Compute Speed (GFlops)<br>
-        <a href=\"?orderBy=`Project Compute Speed (GFlops)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Compute Speed (GFlops)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-stat\">
+        <div class=\"title\">Speed (GFlops)</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Project Compute Speed (GFlops)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Project Compute Speed (GFlops)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        W.A.S (Work Availability Score)<br>
-        <a href=\"?orderBy=`W.A.S (Work Availability Score)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`W.A.S (Work Availability Score)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-stat\">
+        <div class=\"title\">W.A.S</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`W.A.S (Work Availability Score)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`W.A.S (Work Availability Score)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Z.C.D (Zero Credit Days)<br>
-        <a href=\"?orderBy=`Z.C.D (Zero Days Credit)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Z.C.D (Zero Days Credit)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-stat\">
+        <div class=\"title\">Z.C.D</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Z.C.D (Zero Days Credit)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Z.C.D (Zero Days Credit)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Current Status<br>
-        <a href=\"?orderBy=`Current Status` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Current Status` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-list\">
+        <div class=\"title\">Current Status</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Current Status` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Current Status` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Calculated Status<br>
-        <a href=\"?orderBy=`Calculated Status` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Calculated Status` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-list\">
+        <div class=\"title\">Calculated Status</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Calculated Status` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Calculated Status` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Calculated Status (Experimental)<br>
-        <a href=\"?orderBy=`Calculated Status (Experimental)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Calculated Status (Experimental)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-list\">
+        <div class=\"title\">Calculated Status (V2)</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Calculated Status (Experimental)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Calculated Status (Experimental)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Recommended Status (Experimental)<br>
-        <a href=\"?orderBy=`Recommended Status (Experimental)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Recommended Status (Experimental)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    <th class=\"col-list\">
+        <div class=\"title\">Recommended Status (V2)</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Recommended Status (Experimental)` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Recommended Status (Experimental)` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
     </th>
-    <th>
-        Last Update<br><br>
-        <a href=\"?orderBy=`Last Update` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Last Update` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
-    </th>
-    <th>Notes</th>
+    <th class=\"col-update\">
+        <div class=\"title\">Last Update</div>
+        <div class=\"sortcnt\"><a href=\"?orderBy=`Last Update` ASC\"><img class=sortimg src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Last Update` DESC\"><img class=sortimg src=\"resources/images/sort-down.png\" alt=\"down\"></a></div>
+    </th class=\"col-note\">
+    <th><div class=\"title\">Notes</div>
+    <div class=\"sortcnt\"><div></div></th>
     </tr>";
 
 class TableRows extends RecursiveIteratorIterator {
@@ -86,8 +86,8 @@ class TableRows extends RecursiveIteratorIterator {
     function endChildren() {echo "</tr>" . "\n";}}
 
 $servername = "localhost";
-$username = "xxxxxxxxxxx";
-$password = "xxxxxxxxxxx";
+$username = "php";
+$password = "#qea%vLK3LZw";
 $dbname = "grc_listings";
 $orderBy = array(
     '`Project Name` ASC',
@@ -156,3 +156,20 @@ echo "</table>";
 <?php include('resources/footer.php');?>
 </body>
 </html>
+
+<!--  
+    <th>
+        Project Avg Daily Credit (7 Day)<br>
+        <a href=\"?orderBy=`Project Avg Daily Credit (7 Day)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Project Avg Daily Credit (7 Day)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    </th>
+    <th>
+        Project Avg Daily Credit (40 Day)<br>
+        <a href=\"?orderBy=`Project Avg Daily Credit (40 Day)` ASC\"><img class=sort src=\"resources/images/sort-up.png\" alt=\"up\"></a>
+        <a href=\"?orderBy=`Project Avg Daily Credit (40 Day)` DESC\"><img class=sort src=\"resources/images/sort-down.png\" alt=\"down\"></a>
+    </th>
+
+    '`Project Avg Daily Credit (7 Day)` ASC',
+    '`Project Avg Daily Credit (7 Day)` DESC',
+    '`Project Avg Daily Credit (40 Day)` ASC',
+    '`Project Avg Daily Credit (40 Day)` DESC',

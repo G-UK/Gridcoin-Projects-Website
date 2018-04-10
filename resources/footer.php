@@ -1,4 +1,4 @@
-<footer>
+<footer class="col-12">
     Copyright © 2018 G_UK<br>
     <a href="privacy_policy.php">Privacy Policy</a><br>
     <a href="cookies_policy.php">Cookies Policy</a><br>
