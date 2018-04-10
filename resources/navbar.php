@@ -1,4 +1,4 @@
-<topnav class="col-12">
+<topnav>
     <div class="col-1 col-s-2 col-m-2 navlink"><a href="index.php">Home</a></div>
     <div class="col-1 col-s-2 col-m-2 navlink"><a href="project_listings.php">The List</a></div>
     <div class="col-1 col-s-2 col-m-2 navlink"><a href="listing_process.php">The Process</a></div>
