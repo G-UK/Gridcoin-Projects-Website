@@ -1,153 +1,177 @@
-/*General*/
-body {background-color:#414141; color:white}
-* {box-sizing: border-box;}
-.col-1 {width: 8.33%; float: left; padding: 10px;}
-.col-2 {width: 16.66%; float: left; padding: 10px;}
-.col-3 {width: 25%; float: left; padding: 10px;}
-.col-4 {width: 33.33%; float: left; padding: 10px;}
-.col-5 {width: 41.66%; float: left; padding: 10px;}
-.col-6 {width: 50%; float: left; padding: 10px;}
-.col-7 {width: 58.33%; float: left; padding: 10px;}
-.col-8 {width: 66.66%; float: left; padding: 10px;}
-.col-9 {width: 75%; float: left; padding: 10px;}
-.col-10 {width: 83.33%; float: left; padding: 10px;}
-.col-11 {width: 91.66%; float: left; padding: 10px;}
-.col-12 {width: 100%; float: left; padding: 10px;}
-.row::after {content: ""; clear: both; display: table;}
+/*Layout Columns*/
+.col-1 {width: 8.33%; float: left}
+.col-2 {width: 16.66%; float: left}
+.col-3 {width: 25%; float: left}
+.col-4 {width: 33.33%; float: left}
+.col-5 {width: 41.66%; float: left}
+.col-6 {width: 50%; float: left}
+.col-7 {width: 58.33%; float: left}
+.col-8 {width: 66.66%; float: left}
+.col-9 {width: 75%; float: left}
+.col-10 {width: 83.33%; float: left}
+.col-11 {width: 91.66%; float: left}
+.col-12 {width: 100%; float: left}
+[class*="col-"] {box-sizing:border-box; padding:10px}
+.row::after {content:""; clear:both; display:table}
+
+/*General Formats*/
+    /*Main Body*/
+    html {height: 100%}
+    body {height: 100%; background-color: #414141; color: white}
+    article {min-height: 100%}
+    aside {box-sizing:border-box; width:15%; min-height: 200%; padding: 15px}
+        aside table {margin: auto}
+        aside table th td {max-height: 50px; max-width: 50px; min-height: 25px; min-width: 25px}
+        aside img {max-width: 100%; height: auto; padding: 8px}
+        aside.left {float: left; border-right: 3px solid white}
+        aside.right {float: left; border-left: 3px solid white}
+        aside p {font-size: 1em; line-height: 0.5}
+    
+    .col-one {box-sizing:border-box; float: left; width: 70%; padding: 15px}
+    .col-two {box-sizing:border-box; float: left; width: 35%; padding: 15px}
+
+    /*Text*/
+    p {font-size:1.5em; font-family:geneva}
+    h1 {font-family:tahoma; color:white; font-size:4em; padding:0px; margin:0px}
+    h2 {font-family:tahoma; font-size:2em; padding:0px; margin:0px}
+    h3 {font-family:tahoma; font-size:1.75em; padding:0px; margin:0px}
+    h4 {font-family:tahoma; font-size:1.5em; padding:0px; margin:0px}
+    .justify {text-align:justify}
+    .center {text-align:center}
+
+
+    /*Links*/
+    a:link {color:deepskyblue;}
+    a:visited {color:lightblue;}
+    a:hover {color:hotpink;}
+    a:active {color:blue;}
+
+    /*Image*/
+    .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; vertical-align:center}
 
 /*Header - All Pages*/
-header {
-    background:linear-gradient(#6800CB,#2A0051);
-    border:3px solid white;
-    padding:25px; padding-right:300px;
-    text-align:center; color:white}
-.headerimg {display:block; width:300px; height:150px; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
+header {background:linear-gradient(#6800CB,#2A0051); border:3px solid white; border-bottom:none; padding:25px;
+    text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align:center; vertical-align:center}
+    header img {display:block; width:300px; height:150px; position:relative; top:50%; left:50%; transform:translate(-50%,0%)}
+    header h1 {padding-top:30px}
 
  /*Navbar - All Pages*/
-topnav {background-color:#2A0051; padding:0px}
-.navlink {font-family:geneva; text-align:center; vertical-align:center; font-size:1.5em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border:3px solid white; border-right:none}
-.navlink:hover {background-color:#ddd; color:black;}
-.navcomment {font-family:geneva; text-align:right; font-size:1.5em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border:3px solid white}
-
-/*Main Body Sections*/
-p {font-size:1.5em; font-family:geneva; text-align:justify}
-.rightbodyimg1 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,50%)}
-.rightbodyimg2 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,50%)}
-
-/*Listings Table*/
-.projectslist {border: solid white 3px; border-collapse: collapse; background-color: #2A0051}
-
-.title {font-family:geneva; font-size:1em; font-weight:bold; text-align:center; vertical-align:center;
-    width:100%; height:75%}
-.sortcnt {width:100%; height:25%}
-.sortimg {width:18px; height:20px; margin:0px}
-
-.col-name {border: solid white 3px;
-    height:100px; width:10%; padding:10px}
-.col-votes {border: solid white 3px;
-    height:100px; width:5%; padding:10px}
-.col-credit {border: solid white 3px;
-    height:100px; width:10%; padding:10px}
-.col-stat {border: solid white 3px;
-    height:100px; width:5%; padding:10px}
-.col-list {border: solid white 3px;
-    height:100px; width:10%; padding:10px}
-.col-update {border: solid white 3px;
-    height:100px; width:5%; padding:10px}
-.col-notes {border: solid white 3px;
-    height:100px; width:20%; padding:10px}
-
-
-td {border: solid; padding: 5px; height: 40px; text-align: center; vertical-align: center;}
-tr {height: 40px; opacity: 1.0;}
-tr:hover {opacity: 1.0;}
-
-.whitelist {background-color:darkgreen}
-.greylist {background-color:#7F7F7F}
-.blacklist {background-color:#F74100}
-/*.error {background-color:red}*/
-
+.navlink {background-color:#2A0051; font-family:geneva; text-align:center; vertical-align:center; font-size:1.5em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border:3px solid white; border-right:none; padding:10px 0px}
+.navlink:hover {background-color:#ddd; color:black}
+.navcomment {background-color:#2A0051; font-family:geneva; text-align:right; font-size:1.5em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border:3px solid white; padding:10px}
+    
 /*Footer - All Pages*/
 footer {background-color:#2A0051; border:3px solid white; text-align:center; color:white; padding: 25px;}
 
+/*Index*/
+.grcimage {box-sizing:border-box; max-width:25%; height:auto; position:relative; transform:translate(0%,15%)}
+.boincimage {box-sizing:border-box; max-width:15%; height:auto; position:relative; transform:translate(0%,15%)}
+
+/*Links Page*/
+.linkimg {max-width:200px; max-height:100px; height:auto}
+
+/*Listings Table*/
+    /*Main Table Properties*/
+    .projectslist {border:solid white 3px; border-collapse:collapse; background-color:#2A0051}
+        .projectslist td {border:solid white 3px; padding:5px; height:40px; text-align:center; vertical-align:center}
+        .projectslist tr {height:40px; opacity:1.0;}
+        .projectslist tr:hover {opacity: 1.0;}
+        .projectslist th {font-family:geneva; font-size:1em; font-weight:bold; text-align:center; vertical-align:center;
+            height:100px; border:solid white 3px; padding:10px}
+        .projectslist img {width:18px; height:20px; margin:0px}
+
+    /*Column Heading Tooltips*/
+    .tooltip {position:relative; display:inline-block; text-decoration:underline dotted white}
+        .tooltip .tooltiptext {visibility:hidden; background-color:black;
+            color:white; text-align:center;
+            border:2px solid white; border-radius:6px;
+            width:180px; padding:10px; margin-left:-90px;
+            position:absolute; z-index:1; bottom:100%; left:50%;}
+        .tooltip:hover .tooltiptext {visibility: visible}
+
+    /*Column Widths*/
+    .col-name {width:10%}
+    .col-votes {width:5%}
+    .col-credit {width:10%}
+    .col-stat {width:5%}
+    .col-list {width:10%}
+    .col-update {width:5%}
+    .col-notes {width:20%}
+
+    /*Conditional Formatting*/
+    .whitelist {background-color:#a6d785; color:#414141}
+    .greylist {background-color:#7F7F7F}
+    .blacklist {background-color:#e04006}
+
 /*Construction*/
 .constructtxt {text-align:center;}
-.constructimg {display:block; max-width:50%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
+.constructimg {display:block; max-width:50%; height:auto; position:relative; top:50%; left:50%; transform:translate(-50%,0%)}
 
-/*General Images*/
-img {margin: 10px;}
-iframe {border:none; width:100%; height:950px;}
+/*Projects Pages Development*/
+.projectimg {display:block; margin:auto; max-width:90%; height:auto; padding:20px 0px 20px 0px}
+.leftimg {max-width:50px; max-height:50px; float:left}
+.rightimg {max-width:50px; max-height:50px; float:right}
+.liststatus {width:100%; height:auto; margin-bottom:20px; padding-top:20px; padding-bottom:20px;
+    border:3px solid white; border-radius:10px; vertical-align:center;
+    text-align:center; font-family:tahoma; font-size:2em}
+        
+    /*RSS Feeds*/
+    .rss {padding:0px 10px 10px 10px; border-bottom:2px solid white}
+        .rss .head {font-size:1.75em; font-family:geneva}
+        .rss .date {font-style:italic}
 
-/*General Text & Fonts*/
-h1 {font-family: tahoma; font-size:4em; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
-h2 {font-family: tahoma; font-size:2em;}
-h3 {font-family: tahoma; font-size:1.5em;}
-h4 {font-family: tahoma; font-size:1em;}
-h5 {font-family: tahoma; font-size:1em;}
-h6 {font-family: tahoma; font-size:1em;}
-a:link {color:deepskyblue;}
-a:visited {color:lightblue;}
-a:hover {color:hotpink;}
-a:active {color:blue;}
-li {font-size:1.5em; font-family:geneva;}
+/*For Tiny Screens (Phones)*/
+@media only screen and (max-width: 800px) {
+    [class*="col-"] {width: 100%;}
 
-/*For Small Screens (Phones & Tablets)*/
-@media only screen and (max-width: 950px) {
-    [class*="col-"] {
-        width: 100%;}
-
+    /*Nav Bar (Stacked)*/
     .navlink {border:3px solid white}
     .navcomment {border-top:none; text-align:center}
 
-    .rightbodyimg1 {display:block; max-width:50%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
-    .rightbodyimg2 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
+    .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
+
+    /*Re-sized Homepage Images*/
+    .grcimage {box-sizing:border-box; max-width:75%; height:auto; position:relative; transform:translate(0%,0%)}
+    .boincimage {box-sizing:border-box; max-width:50%; height:auto; position:relative; transform:translate(0%,0%)}
+    
+    aside {display: none}
     }
 
-/*For Medium Screens (Tablet or Low Res PC)*/
-@media only screen and (min-width: 950px) and (max-width: 1250px) {
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+/*For Small Screens (Tablet or Low Res PC)*/
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
     
+    /*Layout Columns (Narrow)*/
+    .col-s-1 {width: 8.33%}
+    .col-s-2 {width: 16.66%}
+    .col-s-3 {width: 25%}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%}
+    .col-s-6 {width: 50%}
+    .col-s-7 {width: 58.33%}
+    .col-s-8 {width: 66.66%}
+    .col-s-9 {width: 75%}
+    .col-s-10 {width: 83.33%}
+    .col-s-11 {width: 91.66%}
+    .col-s-12 {width: 100%}
+    
+    .col-one {box-sizing:border-box; float: left; width: 100%; padding: 15px}
+    .col-two {box-sizing:border-box; float: left; width: 50%; padding: 15px}
+    aside {box-sizing:border-box; float: left; width: 100%; min-height:0%; padding: 15px}
+        aside.left {border:none}
+        aside.right {border:none}
+
+    /*Nav Bar (Narrow)*/
     .navlink-s {border:3px solid white}
     .navcomment {border-top:none; text-align:center}
 
-    .rightbodyimg1 {display:block; max-width:50%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
-    .rightbodyimg2 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
-
-
-    }
-
-/*For Medium Screens (Medium Res PC)*/
-@media only screen and (min-width: 1250px) and (max-width: 1900px) {
+    .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
     
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-    
-    .navlink-s {border:3px solid white}
-    .navcomment {border-top:none; text-align:center}
-
-    .rightbodyimg1 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,75%)}
-    .rightbodyimg2 {display:block; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,100%)}
+    /*Re-sized Homepage Images*/
+    .grcimage {box-sizing:border-box; max-width:50%; height:auto; position:relative; transform:translate(0%,0%)}
+    .boincimage {box-sizing:border-box; max-width:30%; height:auto; position:relative; transform:translate(0%,0%)}
     }
