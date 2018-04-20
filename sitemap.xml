@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gridcoin.ddns.net/</loc>
-    <lastmod>2018-04-10</lastmod>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://gridcoin.ddns.net/index.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -42,28 +42,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://gridcoin.ddns.net/privacy_policy.php</loc>
-    <lastmod>2018-04-10</lastmod>
-    <changefreq>daily</changefreq>
-    <image:image>
-      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
-      <image:title>gridcoin logo</image:title>
-      <image:caption>gridcoin logo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://gridcoin.ddns.net/disclaimer.php</loc>
-    <lastmod>2018-04-10</lastmod>
-    <changefreq>daily</changefreq>
-    <image:image>
-      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
-      <image:title>gridcoin logo</image:title>
-      <image:caption>gridcoin logo</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://gridcoin.ddns.net/under_construction.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <loc>https://gridcoin.ddns.net/pages/under-construction.php</loc>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -77,8 +57,218 @@
     </image:image>
   </url>
   <url>
-    <loc>https://gridcoin.ddns.net/project_listings.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <loc>https://gridcoin.ddns.net/pages/projects/numberfields.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/numberfields.png</image:loc>
+      <image:title>Numberfields logo</image:title>
+      <image:caption>Numberfields logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/projects/skynet.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/skynet.png</image:loc>
+      <image:title>Skynet:POGS logo</image:title>
+      <image:caption>Skynet:POGS logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/legals/terms.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list-process.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php</loc>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -97,8 +287,358 @@
     </image:image>
   </url>
   <url>
-    <loc>https://gridcoin.ddns.net/listing_process.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <loc>https://gridcoin.ddns.net/pages/projects/project-index.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/acoustics.png</image:loc>
+      <image:title>Acoustics@Home Logo</image:title>
+      <image:caption>Acoustics@Home Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/seti.png</image:loc>
+      <image:title>SETI@Home logo</image:title>
+      <image:caption>SETI@Home logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/cosmology.png</image:loc>
+      <image:title>Cosmology@Home logo</image:title>
+      <image:caption>Cosmology@Home logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/denis.png</image:loc>
+      <image:title>D.E.N.I.S logo</image:title>
+      <image:caption>D.E.N.I.S logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/numberfields.png</image:loc>
+      <image:title>Numberfields Logo</image:title>
+      <image:caption>Numberfields Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/skynet.png</image:loc>
+      <image:title>Skynet:POGS Logo</image:title>
+      <image:caption>Skynet:POGS Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/rosetta.png</image:loc>
+      <image:title>Rosetta@Home Logo</image:title>
+      <image:caption>Rosetta@Home Logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/links.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/GRCLogoOnly.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/boinc_logo_3d.png</image:loc>
+      <image:title>boinc logo</image:title>
+      <image:caption>boinc logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/projects/denis.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/denis.png</image:loc>
+      <image:title>D.E.N.I.S logo</image:title>
+      <image:caption>D.E.N.I.S logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/projects/acoustics.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/acoustics.png</image:loc>
+      <image:title>Acoustics@Home logo</image:title>
+      <image:caption>Acoustics@Home logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/projects/rosetta.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/rosetta.png</image:loc>
+      <image:title>Rosetta@Home logo</image:title>
+      <image:caption>Rosetta@Home logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/legals/privacy-policy.php</loc>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -107,8 +647,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://gridcoin.ddns.net/cookies_policy.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <loc>https://gridcoin.ddns.net/pages/legals/disclaimer.php</loc>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
@@ -117,15 +657,520 @@
     </image:image>
   </url>
   <url>
-    <loc>https://gridcoin.ddns.net/terms.php</loc>
-    <lastmod>2018-04-10</lastmod>
+    <loc>https://gridcoin.ddns.net/pages/legals/cookies-policy.php</loc>
+    <lastmod>2018-04-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
       <image:title>gridcoin logo</image:title>
       <image:caption>gridcoin logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/projects/seti.php</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/projects/seti.png</image:loc>
+      <image:title>SETI@Home logo</image:title>
+      <image:caption>SETI@Home logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/page.png</image:loc>
+      <image:title>page image</image:title>
+      <image:caption>page image</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/rss.png</image:loc>
+      <image:title>rss logo</image:title>
+      <image:caption>rss logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/blank.png</image:loc>
+      <image:title>blank</image:title>
+      <image:caption>blank</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x86.png</image:loc>
+      <image:title>x86</image:title>
+      <image:caption>x86</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/x64.png</image:loc>
+      <image:title>x64</image:title>
+      <image:caption>x64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_hf.png</image:loc>
+      <image:title>armhf</image:title>
+      <image:caption>armhf</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/arm_64.png</image:loc>
+      <image:title>arm64</image:title>
+      <image:caption>arm64</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/windows.png</image:loc>
+      <image:title>windows</image:title>
+      <image:caption>windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/yes.png</image:loc>
+      <image:title>yes</image:title>
+      <image:caption>yes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/no.png</image:loc>
+      <image:title>no</image:title>
+      <image:caption>no</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/linux.png</image:loc>
+      <image:title>linux</image:title>
+      <image:caption>linux</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/mac.png</image:loc>
+      <image:title>mac osx</image:title>
+      <image:caption>mac osx</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/android.png</image:loc>
+      <image:title>android</image:title>
+      <image:caption>android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/nvidia.png</image:loc>
+      <image:title>nvidia</image:title>
+      <image:caption>nvidia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/amd.png</image:loc>
+      <image:title>amd</image:title>
+      <image:caption>amd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/intel.png</image:loc>
+      <image:title>intel</image:title>
+      <image:caption>intel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Vote (Date)` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Name` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Vote (Date)` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Name` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Compute Speed (GFlops)` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Total Credit` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Vote (In/Out)` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`W.A.S (Work Availability Score)` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`W.A.S (Work Availability Score)` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Vote (In/Out)` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Current Status` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Z.C.D (Zero Days Credit)` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Total Credit` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Calculated Status` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Calculated Status` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Project Compute Speed (GFlops)` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Last Update` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Z.C.D (Zero Days Credit)` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/piwik/index.php?module=CoreAdminHome&amp;amp;action=optOut&amp;amp;language=en&amp;amp;backgroundColor=414141&amp;amp;fontColor=ffffff&amp;amp;fontSize=1.5em&amp;amp;fontFamily=geneva</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/piwik/plugins/Morpheus/images/loading-blue.gif</image:loc>
+      <image:title>Loading</image:title>
+      <image:caption>Loading</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Current Status` DESC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://gridcoin.ddns.net/pages/project-list.php?orderBy=`Last Update` ASC</loc>
+    <lastmod>2018-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/gridcoin_blocks.png</image:loc>
+      <image:title>gridcoin logo</image:title>
+      <image:caption>gridcoin logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-up.png</image:loc>
+      <image:title>up</image:title>
+      <image:caption>up</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://gridcoin.ddns.net/resources/images/sort-down.png</image:loc>
+      <image:title>down</image:title>
+      <image:caption>down</image:caption>
     </image:image>
   </url>
 </urlset>
-<!--<guid value="cb4fa792-ccca-4dca-a451-a1feb529a67d" />-->
+<!--<guid value="092ca9f7-ef19-4978-b3c8-7681def4cdda" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
