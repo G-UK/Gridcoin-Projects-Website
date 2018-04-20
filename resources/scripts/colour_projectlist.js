@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    /*Project Status*/
+    /*Vote Status*/
     $('td:nth-child(2)').filter('td:contains(In)')
     .addClass("whitelist");
     $('td:nth-child(2)').filter('td:contains(NO VOTE)')
@@ -42,19 +42,4 @@ $(document).ready(function(){
     .addClass("greylist");
     $('td:nth-child(9)').filter('td:contains(Unlisted)')
     .addClass("blacklist");
-    /*Calculated Statue (Experimental)*/
-    $('td:nth-child(10)').filter('td:contains(Whitelisted)')
-    .addClass("whitelist");
-    $('td:nth-child(10)').filter('td:contains(Greylisted)')
-    .addClass("greylist");
-    $('td:nth-child(10)').filter('td:contains(Unlisted)')
-    .addClass("blacklist");
-    /*Recommended Status (Experimental)*/
-    $('td:nth-child(11)').filter('td:contains(Whitelisted)')
-    .addClass("whitelist");
-    $('td:nth-child(11)').filter('td:contains(Greylisted)')
-    .addClass("greylist");
-    $('td:nth-child(11)').filter('td:contains(Unlisted)')
-    .addClass("blacklist");
-
 });
