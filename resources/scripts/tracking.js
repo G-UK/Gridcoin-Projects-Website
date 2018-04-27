@@ -1,5 +1,5 @@
 var idSite = 1;
-var piwikTrackingApiUrl = 'https://gridcoin.ddns.net/piwik/piwik.php';
+var piwikTrackingApiUrl = 'https://gridcoin.ddns.net:8062/piwik/piwik.php';
 
 var _paq = _paq || [];
   _paq.push(['setTrackerUrl', piwikTrackingApiUrl]);
