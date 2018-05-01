@@ -1,4 +1,5 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Allow: /sitemap.htm
+Disallow: /*?*
 Sitemap: https://gridcoin.ddns.net/sitemap.xml
