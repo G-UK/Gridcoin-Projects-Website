@@ -30,5 +30,5 @@
         </div>
     </div>
     <a class=navbox href="/pages/project-list-process.php">Process</a>
-    <a class=navbox href="/pages/links.php">Links</a>
+    <a class=navbox href="/pages/links.php">Useful Links</a>
 </div>
