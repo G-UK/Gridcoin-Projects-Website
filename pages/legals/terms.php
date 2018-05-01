@@ -11,8 +11,12 @@
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/header.php');?>
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');?>
 
+<!-- Containers for equal height Columns -->
+<div class=col-container>
+
 <!-- Left Sidebar -->
-<?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/project-sidebar.php');?>
+<aside class="left">
+</aside>
 
 <!-- Main Column -->
 <article class="col-one justify"><br>
@@ -34,22 +38,21 @@
     <h2>Changes</h2>
         <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
         <p>By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.<br><br></p>
+    <h2 class="heading">Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+            <li>By email: <a href=webmaster@gridcoin.ddns.net>webmaster@gridcoin.ddns.net</a></li>
+        </ul>
 </article>
 
 <!-- Right Sidebar -->
 <aside class="right">    
 </aside>
 
+</div>
+
 <!-- Footer -->
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/footer.php');?>
 
 </body>
 </html>
-
-<!--
-<h2 class="heading">Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us:</p>
-<ul>
-        <li>By email: webmaster@gridcoin.ddns.net</li>
-</ul>
--->
