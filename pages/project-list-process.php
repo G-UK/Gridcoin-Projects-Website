@@ -12,11 +12,15 @@
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/header.php');?>
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');?>
 
+<!-- Containers for equal height Columns -->
+<div class=col-container>
+
 <!-- Left Sidebar -->
-<?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/project-sidebar.php');?>
+<aside class="left">
+</aside>
 
 <!-- Main Column -->
-<article class="col-one ">
+<article class="col-one">
 <section>
     <br>
     <h2>Management of listed BOINC projects (Greylisting)</h2>
@@ -149,6 +153,8 @@
 <!-- Right Sidebar -->
 <aside class="right">
 </aside>
+
+</div>
 
 <!-- Footer -->
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/footer.php');?>
