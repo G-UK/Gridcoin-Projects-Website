@@ -1,22 +1,20 @@
 <aside class="left center">
 	<h3>Project List</h3>
-	<p><a href="/pages/projects/acoustics.php">Acoustics@Home</a></p>
+	<p><a href="/pages/projects/amicable.php">Amicable Numbers</a></p>
+	<p><a href="/pages/projects/asteroids.php">Asteroids @ Home</a></p>
+	<p><a href="/pages/projects/acoustics.php">Acoustics @ Home</a></p>
+	<p><a href="/pages/projects/cas.php">CAS@Home</a></p>
+	<p><a href="/pages/projects/csg.php">Citizen Science Grid</a></p>
+	<p><a href="/pages/projects/cpdn.php">ClimatePrediction.net</a></p>
+	<p><a href="/pages/projects/collatz.php">Collatz Conjecture</a></p>
+	<p><a href="/pages/projects/cosmology.php">Cosmology @ Home</a></p>
 	<p><a href="/pages/projects/denis.php">DENIS</a></p>
 	<p><a href="/pages/projects/numberfields.php">Numberfields</a></p>
-    <p><a href="/pages/projects/rosetta.php">Rosetta@Home</a></p>
-    <p><a href="/pages/projects/seti.php">SETI@Home</a></p>
+    <p><a href="/pages/projects/rosetta.php">Rosetta @ Home</a></p>
+    <p><a href="/pages/projects/seti.php">SETI @ Home</a></p>
     <p><a href="/pages/projects/skynet.php">Skynet:POGS</a></p>
 
 <!--
-	<p><a href="/pages/projects/amicable.php">Amicable Numbers</a></p>
-	<p><a href="/pages/projects/asteroids.php">Asteroids@Home</a></p>
-	<p><a href="/pages/projects/cas.php">CAS@Home</a></p>
-	<p><a href="/pages/projects/collatz.php">Collatz Conjecture</a></p>
-	<p><a href="/pages/projects/cosmology.php">Cosmology@Home</a></p>
-	<p><a href="/pages/projects/cpdn.php">ClimatePrediction.net</a></p>
-	<p><a href="/pages/projects/csg.php">Citizen Science Grid</a></p>
-	<p><a href="/pages/projects/ddm.php">Distributed Data Mining</a></p>
-	<p><a href="/pages/projects/drugdisc.php">Drug Discovery</a></p>
 	<p><a href="/pages/projects/einstein.php">Einstein</a></p>
 	<p><a href="/pages/projects/enigma.php">Enigma</a></p>
 	<p><a href="/pages/projects/gerasim.php">Gerasim</a></p>
@@ -45,6 +43,8 @@
 	<p><a href="/pages/projects/xansons.php">XANSONS4COD</a></p>
 	<p><a href="/pages/projects/yafu.php">YAFU</a></p>
 	<p><a href="/pages/projects/yoyo.php">Yoyo</a></p>
+
+	<p><a href="/pages/projects/drugdisc.php">Drug Discovery</a></p>
 -->
 	<br>
 	<br>
