@@ -65,7 +65,14 @@
     <div>
     <h2 class=center>What is</h2>
     <br>
-    <a href="https://gridcoin.us"><img src="/resources/images/GRCHorizontal.png" alt="Gridcoin Logo Horizontal" class="grcimg"></a>
+    <a href="https://gridcoin.us">
+        <img
+             src="/resources/images/GRCHorizontal.png"
+             alt="Visit the Official Gridcoin Homepage for more details"
+             title="Gridcoin Horizontal Logo, Links to gridcoin.us"
+             class="grcimg"
+         >
+    </a>
     <p>Gridcoin is an open-source blockchain that mints and distributes cryptocurrency in relation to the processing power a network
     participant directs toward data-driven analysis and scientific discovery. Currently, the Gridcoin blockchain is secured through
     a proof-of-stake protocol and monitors processing contributions to the distributed computing infrastructure, BOINC.
@@ -74,7 +81,14 @@
     <div>
     <h2 class=center>What is</h2>
     <br>
-    <a href="https://boinc.berkeley.edu/"><img src="/resources/images/boinc_logo_3d.png" alt="BOINC Logo" class="boincimg"></a>
+    <a href="https://boinc.berkeley.edu/">
+        <img
+             src="/resources/images/boinc_logo_3d.png"
+             alt="Visit the Official BOINC Homepage for more details"
+             title="BOINC Logo, Links to boinc.berkeley.edu"
+             class="boincimg"
+         >
+    </a>
     <p>The Berkeley Open Infrastructure for Network Computing (BOINC) is an open-source distributed computing infrastructure which
     provides anyone with data the opportunity to process that data for near zero cost by utilizing a global volunteer-base
     distributed
