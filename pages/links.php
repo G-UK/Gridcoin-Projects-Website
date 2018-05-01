@@ -10,11 +10,17 @@
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/header.php');?>
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');?>
 
-<section class="col-12 col-m-12 center">
+<section class="fullwidth center">
 <h1>Useful Links</h1>
 </section>
 
-<article class="col-6 col-m-6 col-s-12 center">
+<!-- Containers for equal height Columns -->
+<div class=col-container>
+
+<aside class=left>
+</aside>
+
+<article class="col-two center">
 <a href="https://gridcoin.us"><img src="/resources/images/GRCLogoOnly.png" alt="gridcoin logo" class="linkimg"></a>    
     <section class="center">
     <h2>Official Sites</h3>
@@ -64,7 +70,8 @@
         <p>Cryptocurrencytalk - <a href="https://cryptocurrencytalk.com/forum/464-gridcoin-grc">https://cryptocurrencytalk.com/forum/464-gridcoin-grc</a><br><br></p>
     </section>
 </article>
-<article class="col-6 col-m-6 col-s-12 center"> 
+
+<article class="col-two center"> 
 <a href="https://boinc.berkeley.edu/"><img src="/resources/images/boinc_logo_3d.png" alt="boinc logo" class="linkimg"></a>
     <section  class="center">
     <h2>Official Sites</h3>
@@ -81,6 +88,12 @@
         <p>Comming Soon - Under Construction</p>
     </section>
 </article>
+
+<aside class=right>
+</aside>
+
+</div>
+
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/footer.php');?>
 </body>
 </html>
