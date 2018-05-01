@@ -21,7 +21,12 @@
 </aside>
 
 <article class="col-two center">
-<a href="https://gridcoin.us"><img src="/resources/images/GRCLogoOnly.png" alt="gridcoin logo" class="linkimg"></a>    
+<img
+        src="/resources/images/GRCLogoOnly.png"
+        alt="Gridcoin Related Links Below"
+        title="Gridcoin Logo without Text"
+        class="linkimg"
+> 
     <section class="center">
     <h2>Official Sites</h3>
         <p>Main Site - <a href="https://gridcoin.us">https://gridcoin.us</a></p>
@@ -72,7 +77,12 @@
 </article>
 
 <article class="col-two center"> 
-<a href="https://boinc.berkeley.edu/"><img src="/resources/images/boinc_logo_3d.png" alt="boinc logo" class="linkimg"></a>
+<img
+    src="/resources/images/boinc_logo_3d.png"
+    alt="BOINC related links below"
+    title="BOINC logo with 3D effect"
+    class="linkimg"
+>
     <section  class="center">
     <h2>Official Sites</h3>
         <p>Main Site - <a href="https://boinc.berkeley.edu/">https://boinc.berkeley.edu/</a></p>
