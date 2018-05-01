@@ -5,4 +5,7 @@ $(document).ready(function(){
     .addClass("greylist");
     $('.liststatus').filter('section:contains(Unlisted)')
     .addClass("blacklist");
+
+    $("[href='N/A']").parent().css({display: none});
+
 });
