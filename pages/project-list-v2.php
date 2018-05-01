@@ -15,78 +15,235 @@
 <?php
 echo "<table class=\"projectslist\">";
 echo 
-    "<tr>
+"<tr>
     <th class=\"col-name\">
         <div>Project Name</div>
-        <div><a href=\"?orderBy=`Project Name` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Name` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+        <a href=\"?column=`ProjectName`&orderBy=ASC\">
+            <img
+                src=\"/resources/images/sort-up.png\"
+                alt=\"Sort Ascending\"
+                title=\"Up Arrow\"
+            >
+        </a>
+        <a href=\"?column=`ProjectName`&orderBy=DESC\">
+            <img
+                src=\"/resources/images/sort-down.png\"
+                alt=\"Sort Descending\"
+                title=\"Down Arrow\"
+            >
+        </a>
+        </div>
     </th>
     <th class=\"col-votes\">
-        <div><div class=\"tooltip\">Vote (In/Out)
-            <span class=\"tooltiptext\">Result of last Whitelist Vote</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Vote (In/Out)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Vote (In/Out)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Vote (In/Out)
+                <span class=\"tooltiptext\">Result of last Whitelist Vote</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`Vote(In/Out)`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title-\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`Vote(In/Out)`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-votes\">
-        <div><div class=\"tooltip\">Vote (Date)
-            <span class=\"tooltiptext\">Date of last Whitelist Vote.<br>Where Applicable</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Vote (Date)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Vote (Date)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Vote (Date)
+                <span class=\"tooltiptext\">Date of last Whitelist Vote.<br>Where Applicable</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`Vote(Date)`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title=\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`Vote(Date)`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-credit\">
-        <div><div class=\"tooltip\">Total Credit
-            <span class=\"tooltiptext\">Total Credit issued by the Project</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Project Total Credit` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Total Credit` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Total Credit
+                <span class=\"tooltiptext\">Total Credit issued by the Project</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`TotalCredit`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`TotalCredit`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Decending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-stat\">
-        <div><div class=\"tooltip\">Speed (GFlops)
-            <span class=\"tooltiptext\">Reported Compute Speed of Project<br>Where Available</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Project Compute Speed (GFlops)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Project Compute Speed (GFlops)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Speed (GFlops)
+                <span class=\"tooltiptext\">Reported Compute Speed of Project<br>Where Available</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`ComputeSpeed`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title=\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`ComputeSpeed`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-stat\">
-        <div><div class=\"tooltip\">W.A.S
-            <span class=\"tooltiptext\">Work Availability Score =<br>7 Day Avg Daily Credit /<br>40 Day Avg Daily Credit</span>
-        </div></div>
-        <div><a href=\"?orderBy=`W.A.S (Work Availability Score)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`W.A.S (Work Availability Score)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">W.A.S
+                <span class=\"tooltiptext\">Work Availability Score =<br>7 Day Avg Daily Credit /<br>40 Day Avg Daily Credit</span>
+                </div>
+            </div>
+            <div>
+                <a href=\"?column=`W.A.S`&orderBy=ASC\">
+                    <img
+                        src=\"/resources/images/sort-up.png\"
+                        alt=\"Sort Ascending\"
+                        title=\"Up Arrow\"
+                    >
+                </a>
+                <a href=\"?column=`W.A.S`&orderBy=DESC\">
+                    <img
+                        src=\"/resources/images/sort-down.png\"
+                        alt=\"Sort Descending\"
+                        title=\"Down Arrow\"
+                    >
+                </a>
+            </div>
     </th>
     <th class=\"col-stat\">
-        <div><div class=\"tooltip\">Z.C.D
-            <span class=\"tooltiptext\">Number Days of Zero Credit reported by the Project<br>aka Zero Credit Days</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Z.C.D (Zero Days Credit)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Z.C.D (Zero Days Credit)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Z.C.D
+                <span class=\"tooltiptext\">Number Days of Zero Credit reported by the Project<br>aka Zero Credit Days</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`Z.C.D`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title=\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`Z.C.D`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"down\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-list\">
-        <div><div class=\"tooltip\">Calculated Status (V2)
-            <span class=\"tooltiptext\">Experimental Whitelist Calculation Utilising Compute Speed.<br>Unapproved</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Calculated Status (Experimental)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Calculated Status (Experimental)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Calculated Status (V2)
+                <span class=\"tooltiptext\">Experimental Whitelist Calculation Utilising Compute Speed.<br>Unapproved</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`CalculatedStatus`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title=\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`CalculatedStatus`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-list\">
-        <div><div class=\"tooltip\">Recommended Status (V2)
-            <span class=\"tooltiptext\">Experimental Whitelist Recommendation, assuming no need for votes.<br>Unapproved</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Recommended Status (Experimental)` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Recommended Status (Experimental)` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
+        <div>
+            <div class=\"tooltip\">Recommended Status (V2)
+                <span class=\"tooltiptext\">Experimental Whitelist Recommendation, assuming no need for votes.<br>Unapproved</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`RecommendedStatus`&orderByASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                >
+            </a>
+            <a href=\"?column=`RecommendedStatus`&orderByDESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
     </th>
     <th class=\"col-update\">
-        <div><div class=\"tooltip\">Last Update
-            <span class=\"tooltiptext\">Timestamp from last project stats file downloaded</span>
-        </div></div>
-        <div><a href=\"?orderBy=`Last Update` ASC\"><img src=\"/resources/images/sort-up.png\" alt=\"up\"></a>
-        <a href=\"?orderBy=`Last Update` DESC\"><img src=\"/resources/images/sort-down.png\" alt=\"down\"></a></div>
-    </th class=\"col-note\">
-    <th><div>Notes</div>
-    <div><div></div></th>
-    </tr>";
+        <div>
+            <div class=\"tooltip\">Last Update
+                <span class=\"tooltiptext\">Timestamp from last project stats file downloaded</span>
+            </div>
+        </div>
+        <div>
+            <a href=\"?column=`LastUpdate`&orderBy=ASC\">
+                <img
+                    src=\"/resources/images/sort-up.png\"
+                    alt=\"Sort Ascending\"
+                    title=\"Up Arrow\"
+                >
+            </a>
+            <a href=\"?column=`LastUpdate`&orderBy=DESC\">
+                <img
+                    src=\"/resources/images/sort-down.png\"
+                    alt=\"Sort Descending\"
+                    title=\"Down Arrow\"
+                >
+            </a>
+        </div>
+        <th class=\"col-note\">
+        <div>Notes</div>
+    </th>
+</tr>";
 
 class TableRows extends RecursiveIteratorIterator {
     function __construct($it) {parent::__construct($it, self::LEAVES_ONLY);}
@@ -99,29 +256,30 @@ $username = "php";
 $password = "xxxxxxxxxxx";
 $dbname = "grc_listings";
 $orderBy = array(
-    '`Project Name` ASC',
-    '`Project Name` DESC',
-    '`Vote (In/Out)` ASC',
-    '`Vote (In/Out)` DESC',
-    '`Vote (Date)` ASC',
-    '`Vote (Date)` DESC',
-    '`Project Total Credit` ASC',
-    '`Project Total Credit` DESC',
-    '`Project Compute Speed (GFlops)` ASC',
-    '`Project Compute Speed (GFlops)` DESC',
-    '`W.A.S (Work Availability Score)` ASC',
-    '`W.A.S (Work Availability Score)` DESC',
-    '`Z.C.D (Zero Credit Days)` ASC',
-    '`Z.C.D (Zero Credit Days)` DESC',
-    '`Calculated Status (Experimental)` ASC',
-    '`Calculated Status (Experimental)` DESC',
-    '`Recommended Status (Experimental)` ASC',
-    '`Recommended Status (Experimental)` DESC',
-    '`Last Update` ASC',
-    '`Last Update` DESC');
+    '`ProjectName`',
+    '`Vote(In/Out)`',
+    '`Vote(Date)`',
+    '`TotalCredit`',
+    '`ComputeSpeed`',
+    '`W.A.S`',
+    '`Z.C.D`',
+    '`CalculatedStatus`',
+    '`RecommendedStatus`',
+    '`LastUpdate`',
+    '`LastUpdate`');
 
 $order = '`Project Name` ASC';
-if (isset($_GET['orderBy']) && in_array($_GET['orderBy'], $orderBy)) {$order = $_GET['orderBy'];}  
+if ($_GET['column'] === 'ProjectName') {$columns="`Project Name`";}
+if ($_GET['column'] === 'Vote(In/Out)') {$columns="`Vote (In/Out)`";}
+if ($_GET['column'] === 'Vote(Date)') {$columns="`Vote (Date)`";}
+if ($_GET['column'] === 'TotalCredit') {$columns="`Project Total Credit`";}
+if ($_GET['column'] === 'ComputeSpeed)') {$columns="`Project Compute Speed (GFlops)`";}
+if ($_GET['column'] === 'W.A.S') {$columns="`W.A.S (Work Availability Score)`";}
+if ($_GET['column'] === 'Z.C.D') {$columns="`Z.C.D (Zero Credit Days)`";}
+if ($_GET['column'] === 'CalculatedStatus') {$columns="`Calculated Status (Experimental)`";}
+if ($_GET['column'] === 'RecommendedStatus') {$columns="`Recommended Status (Experimental)`";}
+if ($_GET['column'] === 'LastUpdate') {$columns="`Last Update`";}
+if (isset($_GET['column']) && in_array($_GET['column'], $column)) {$order = $columns . ' ' . $_GET['orderBy'];} 
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
