@@ -19,19 +19,15 @@
     <section>
 		<a href="/pages/projects/acoustics.php"><img src="/resources/images/projects/acoustics.png" alt="Acoustics@Home Logo" class="projectimg"/></a>
     </section>
-  	<section>
-		<a href="/pages/projects/seti.php"><img src="/resources/images/projects/seti.png" alt="SETI@Home logo" class="projectimg"/></a>
-    </section>
-    <section>
-		<a href="/pages/projects/cosmology.php"><img src="/resources/images/projects/cosmology.png" alt="Cosmology@Home logo" class="projectimg"/></a>
-    </section>
     <section>
 		<a href="/pages/projects/denis.php"><img src="/resources/images/projects/denis.png" alt="D.E.N.I.S logo" class="projectimg"/></a>
     </section>
-<!--		<a href="/pages/projects/ddm.php"><img src="/resources/images/projects/ddm.png" alt="ddm logo" class="projectimg"/></a>
+  	<section>
+		<a href="/pages/projects/seti.php"><img src="/resources/images/projects/seti.png" alt="SETI@Home logo" class="projectimg"/></a>
     </section>
+<!--
     <section>
-		<a href="/pages/projects/sourcefinder.php"><img src="/resources/images/projects/sourcefinder.png" alt="sourcefinder logo" class="projectimg"/></a>
+    <a href="/pages/projects/sourcefinder.php"><img src="/resources/images/projects/sourcefinder.png" alt="sourcefinder logo" class="projectimg"/></a>
     </section>
     <section>
 		<a href="/pages/projects/gerasim.php"><img src="/resources/images/projects/gerasim.png" alt="gerasim logo" class="projectimg"/></a>
@@ -51,18 +47,17 @@
 <!-- Right Column -->
 <article class="col-two">
     <section>
+		<a href="/pages/projects/cosmology.php"><img src="/resources/images/projects/cosmology.png" alt="Cosmology@Home logo" class="projectimg"/></a>
+    </section>
+    <section>
 		<a href="/pages/projects/numberfields.php"><img src="/resources/images/projects/numberfields.png" alt="Numberfields Logo" class="projectimg"/></a>
     </section>
     <section>
 		<a href="/pages/projects/skynet.php"><img src="/resources/images/projects/skynet.png" alt="Skynet:POGS Logo" class="projectimg"/></a>
     </section>
+<!--
     <section>
-		<a href="/pages/projects/rosetta.php"><img src="/resources/images/projects/rosetta.png" alt="Rosetta@Home Logo" class="projectimg"/></a>
-    </section>
-<!--		<a href="/pages/projects/srbase.php"><img src="/resources/images/projects/srbase.png" alt="srbase logo" class="projectimg"/></a>
-    </section>
-    <section>
-		<a href="/pages/projects/sztaki.php"><img src="/resources/images/projects/sztaki.png" alt="sztaki logo" class="projectimg"/></a>
+    <a href="/pages/projects/srbase.php"><img src="/resources/images/projects/srbase.png" alt="srbase logo" class="projectimg"/></a>
     </section>
     <section>
 		<a href="/pages/projects/yoyo.php"><img src="/resources/images/projects/yoyo.png" alt="yoyo logo" class="projectimg"/></a>
@@ -81,6 +76,7 @@
     </section>
     <section>
 		<a href="/pages/projects/primegrid.php"><img src="/resources/images/projects/primegrid.png" alt="primegrid logo" class="projectimg"/></a>
+    </section>
 -->
 </article>
 

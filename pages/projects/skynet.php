@@ -12,12 +12,12 @@ $projectdesc =
 <p>TheSkyNet is an initiative of the International Centre for Radio Astronomy Research (ICRAR), a joint venture of Curtin University and The University of Western Australia. By joining this project your computer will help astronomers around the world answer some of the big questions we have about the Universe. TheSkyNet POGS is theSkyNets newest project, in testing since late 2012 and officially joining theSkyNet on our second birthday - September 13th 2013. </p>';
 $pub1url = 'https://www.theskynet.org/pages/Spectral%20Energy%20Distribution%20Fitting';
 $pub1name = 'Spectral Energy Distribution Fitting';
-$pub2url = 'None';
-$pub2name = 'None';
-$pub3url = 'None';
-$pub3name = 'None';
-$pub4url = 'None';
-$pub4name = 'None';
+$pub2url = '';
+$pub2name = '';
+$pub3url = '';
+$pub3name = '';
+$pub4url = '';
+$pub4name = '';
 $rsspath = 'https://pogs.theskynet.org/pogs/forum_rss.php?forumid=1&userid=&ndays=360&threads_only=on';
 $win86 = 'yes';
 $win64 = 'yes';
