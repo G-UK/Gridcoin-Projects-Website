@@ -12,8 +12,12 @@
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/header.php');?>
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');?>
 
+<!-- Containers for equal height Columns -->
+<div class=col-container>
+
 <!-- Left Sidebar -->
-<?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/project-sidebar.php');?>
+<aside class="left">
+</aside>
 
 <!-- Main Column -->
 <article class="col-one justify"><br>
@@ -78,9 +82,8 @@
             <p><strong>Piwik or Matomo</strong></p>
             <p>Piwik or Matomo is a web analytics service. You can visit their Privacy Policy page here: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a><br><br></p>
             
-            <iframe src="https://gridcoin.ddns.net/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;backgroundColor=414141&amp;fontColor=ffffff&amp;fontSize=1.5em&amp;fontFamily=geneva">
-            </iframe>
-    <br> 
+            <iframe class=donottrack src="https://gridcoin.ddns.net/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;backgroundColor=414141&amp;fontColor=ffffff&amp;fontSize=1.5em&amp;fontFamily=geneva"></iframe>
+
     <h2>Links To Other Sites</h2>
         <p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
         <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
@@ -91,11 +94,18 @@
         <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
         <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
         <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.<br><br></p>
+    <h2 class="heading">Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+            <li>By email: <a href=webmaster@gridcoin.ddns.net>webmaster@gridcoin.ddns.net</a></li>
+        </ul>
 </article>
 
 <!-- Right Sidebar -->
 <aside class="right">
 </aside>
+
+</div>
 
 <!-- Footer -->
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/footer.php');?>
