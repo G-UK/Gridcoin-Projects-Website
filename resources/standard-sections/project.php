@@ -8,7 +8,7 @@ include('/srv/www/gridcoin.ddns.net/resources/standard-sections/1hr-cache.php');
 
 echo'
 	<title>'.$projectname.' Summary</title>
-	<script src="/resources/scripts/colour_project_summary.js"></script>
+	<script src="/resources/scripts/project_summary.js"></script>
 </head>
 
 <body>
@@ -20,6 +20,9 @@ include('/srv/www/gridcoin.ddns.net/resources/standard-sections/header.php');
 include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');
 
 echo'
+<!-- Containers for equal height Columns -->
+<div class=col-container>
+
 <!-- Left Sidebar -->
 ';
 
@@ -61,7 +64,7 @@ echo'
 
 		$servername = 'localhost';
 		$username = 'php';
-		$password = 'xxxxxxxxxx';
+		$password = '#qea%vLK3LZw';
 		$dbname = 'grc_listings';
 		
 		try {
@@ -83,14 +86,14 @@ echo'
 echo'		
 	</section>
 	<section>
-	<h2 class="col-10">Project News Feed</h2><a class="col-2" href="'.$rsspath.'">
-		<img src="/resources/images/rss.png" alt="rss logo" class="rightimg"/></a>
+	<h3>Project News Feed<a href="'.$rsspath.'">
+	<img src="/resources/images/rss.png" alt="rss logo" class="rightimg"/></a></h3>
 		<br>
 ';
-
 			$html = '';
 			$url = "/srv/www/gridcoin.ddns.net/resources/rss/$projectid";
 			$xml = simplexml_load_file($url, null, LIBXML_NOCDATA);
+
 			for($i = 0; $i < 3; $i++){
   
 				$title = $xml->channel->item[$i]->title;
@@ -186,7 +189,7 @@ echo'
 ';
 		$servername = 'localhost';
 		$username = 'php';
-		$password = 'xxxxxxxxxxxx';
+		$password = '#qea%vLK3LZw';
 		$dbname = 'grc_listings';
 
 		try {
@@ -221,6 +224,8 @@ echo'
 echo'
 	</section>
 </aside>
+
+</div>
 
 <!-- Footer -->
 ';
