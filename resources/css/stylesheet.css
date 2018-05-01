@@ -1,87 +1,293 @@
-/*Layout Columns*/
-.col-1 {width: 8.33%; float: left}
-.col-2 {width: 16.66%; float: left}
-.col-3 {width: 25%; float: left}
-.col-4 {width: 33.33%; float: left}
-.col-5 {width: 41.66%; float: left}
-.col-6 {width: 50%; float: left}
-.col-7 {width: 58.33%; float: left}
-.col-8 {width: 66.66%; float: left}
-.col-9 {width: 75%; float: left}
-.col-10 {width: 83.33%; float: left}
-.col-11 {width: 91.66%; float: left}
-.col-12 {width: 100%; float: left}
-[class*="col-"] {box-sizing:border-box; padding:10px}
-.row::after {content:""; clear:both; display:table}
-
 /*General Formats*/
-    /*Main Body*/
-    html {height: 100%}
-    body {height: 100%; background-color: #414141; color: white}
-    article {min-height: 100%}
-    aside {box-sizing:border-box; width:15%; min-height: 200%; padding: 15px}
-        aside table {margin: auto}
-        aside table th td {max-height: 50px; max-width: 50px; min-height: 25px; min-width: 25px}
-        aside img {max-width: 100%; height: auto; padding: 8px}
-        aside.left {float: left; border-right: 3px solid white}
-        aside.right {float: left; border-left: 3px solid white}
-        aside p {font-size: 1em; line-height: 0.5}
+
+/*Main Body Layout*/
+html {height: 100%}
+body {height: 100%; background-color: #414141; color: white}
+article {}
+section {}
+.col-container {box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: #2A0051;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+aside {box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin: 0
+}
+    aside table {margin: auto}
+    aside table th td {max-height: 50px; max-width: 50px; min-height: 25px; min-width: 25px}
+    aside img {max-width: 100%; height: auto; padding: 8px}
+    aside p {font-size: 1em; line-height: 1}
     
-    .col-one {box-sizing:border-box; float: left; width: 70%; padding: 15px}
-    .col-two {box-sizing:border-box; float: left; width: 35%; padding: 15px}
+.col-one {box-sizing: border-box;
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+.col-two {box-sizing: border-box;
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.fullwidth {box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: #2A0051;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+.donottrack {box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
 
-    /*Text*/
-    p {font-size:1.5em; font-family:geneva}
-    h1 {font-family:tahoma; color:white; font-size:4em; padding:0px; margin:0px}
-    h2 {font-family:tahoma; font-size:2em; padding:0px; margin:0px}
-    h3 {font-family:tahoma; font-size:1.75em; padding:0px; margin:0px}
-    h4 {font-family:tahoma; font-size:1.5em; padding:0px; margin:0px}
-    .justify {text-align:justify}
-    .center {text-align:center}
+noscript img {border: None}
 
+a.twitter-timeline {
+    /* Buttonish */
+    display: inline-block;
+    padding: 6px 12px 6px 30px;
+    margin: 10px 0;
+    border: #ccc solid 1px;
+    border-radius: 3px;
+    background: #f8f8f8;
+    background-size: 1em 1em;
+  
+    /* Text */
+    font: normal 12px/18px Helvetica, Arial, sans-serif;
+    color: #333;
+    white-space: nowrap;
+  }
+  
+  a.twitter-timeline:hover,
+  a.twitter-timeline:focus {
+    background-color: #dedede;
+  }
+  
+  /* Color Highlight for keyboard navigation */
+  
+  a.twitter-timeline:focus {
+    outline: none;
+    border-color: #0089cb;
+  }
 
-    /*Links*/
-    a:link {color:deepskyblue;}
-    a:visited {color:lightblue;}
-    a:hover {color:hotpink;}
-    a:active {color:blue;}
+/*Main Text Formats*/
+p {font-size:1.5em; font-family:geneva, sans-serif}
+h1 {font-family:tahoma, sans-serif; color:white; font-size:4em; padding:0px; margin:0px}
+h2 {font-family:tahoma, sans-serif; color:white; font-size:2em; padding:0px; margin:0px}
+h3 {font-family:tahoma, sans-serif; color:white; font-size:1.75em; padding:0px; margin:0px}
+h4 {font-family:tahoma, sans-serif; color:white; font-size:1.5em; padding:0px; margin:0px}
+li {color: white; font-size: 1.5em}
+code {color: white; font-size: 1.5em}
+.justify {text-align:justify}
+.center {text-align:center}
+.date {font-style: italic}
+a:link {color:deepskyblue;}
+a:visited {color:lightblue;}
+a:hover {color:hotpink;}
+a:active {color:blue;}
 
-    /*Image*/
-    .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; vertical-align:center}
+/*Header Specific*/
+header {
+    box-sizing: border-box;
+    background: linear-gradient(#6800CB,#2A0051);
+    border: 3px solid white;
+    border-bottom: none;
+    padding: 25px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align: center;
+}
+    header img {
+        display:block;
+        width:300px;
+        height:150px;
+        position:relative;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,0%)
+}
+    header h1 {
+        padding-top:30px
+}
 
-/*Header - All Pages*/
-header {background:linear-gradient(#6800CB,#2A0051); border:3px solid white; border-bottom:none; padding:25px;
-    text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    text-align:center; vertical-align:center}
-    header img {display:block; width:300px; height:150px; position:relative; top:50%; left:50%; transform:translate(-50%,0%)}
-    header h1 {padding-top:30px}
-
- /*Navbar - All Pages*/
-.navlink {background-color:#2A0051; font-family:geneva; text-align:center; vertical-align:center; font-size:1.5em;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border:3px solid white; border-right:none; padding:10px 0px}
-.navlink:hover {background-color:#ddd; color:black}
-.navcomment {background-color:#2A0051; font-family:geneva; text-align:right; font-size:1.5em;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border:3px solid white; padding:10px}
+/*Navbar Specific*/
+.topnav {
+    box-sizing: border-box;
+    background-color: #2A0051;
+    overflow: hidden;
+    border:3px white solid;
+    border-right: none;
+}
+.topnav .navbox {
+    box-sizing:border-box;
+    float: left;
+    display: block;
+    width: 20%;
+    padding: 14px 16px;
+    border-right:3px white solid;
+    color: white;
+    font-family: Geneva, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    }
+.dropdown {
+    box-sizing:border-box;
+    float: left;
+    overflow: hidden;
+    color: white;
+    font-family: Geneva, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    width: 20%;
+    border-right:3px white solid;
+}
+.dropdown .dropbtn {
+    background-color: inherit;
+    float: left;
+    display: block;
+    width: 20%;
+    padding: 14px 16px;
+    border: 0;
+    margin: -90px;
+    outline: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Footer Specific*/
+footer {
+    box-sizing: border-box;
+    background-color: #2A0051;
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+    footer .foot1 {
+        float: left;
+        width: 40%;
+        text-align: left;
+    }
+    footer .foot2 {
+        float: left;
+        width: 20%;
+        text-align: center;
+    }
+    footer .foot3 {
+        float: left;
+        width: 40%;
+        text-align: right;
+    }
+        footer table {
+            box-sizing: border-box;
+            float: right;
+        }
+        footer tr {
+            max-height: 30px;
+        }
+        footer .small {
+            max-height: 30px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer .large {
+            max-height: 60px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
-/*Footer - All Pages*/
-footer {background-color:#2A0051; border:3px solid white; text-align:center; color:white; padding: 25px;}
+/*Index Specific*/
+.grcimg {box-sizing: border-box;
+    display: block;
+    max-width:40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+.boincimg {box-sizing: border-box;
+    display: block;
+    max-width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+.listimg {box-sizing: border-box;
+    display: block;
+    max-width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+#widget-ticker-preview-btc {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+}
+#widget-ticker-preview-usd {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+}
+#widget-ticker-preview-gbp {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+}
 
-/*Index*/
-.grcimage {box-sizing:border-box; max-width:25%; height:auto; position:relative; transform:translate(0%,15%)}
-.boincimage {box-sizing:border-box; max-width:15%; height:auto; position:relative; transform:translate(0%,15%)}
-
-/*Links Page*/
+/*Links Page Specific*/
 .linkimg {max-width:200px; max-height:100px; height:auto}
 
-/*Listings Table*/
+/*Listings Table Specific*/
     /*Main Table Properties*/
     .projectslist {border:solid white 3px; border-collapse:collapse; background-color:#2A0051}
-        .projectslist td {border:solid white 3px; padding:5px; height:40px; text-align:center; vertical-align:center}
+        .projectslist td {border:solid white 3px; padding:5px; height:40px; text-align:center}
         .projectslist tr {height:40px; opacity:1.0;}
         .projectslist tr:hover {opacity: 1.0;}
-        .projectslist th {font-family:geneva; font-size:1em; font-weight:bold; text-align:center; vertical-align:center;
+        .projectslist th {font-family:geneva; font-size:1em; font-weight:bold; text-align:center;
             height:100px; border:solid white 3px; padding:10px}
         .projectslist img {width:18px; height:20px; margin:0px}
 
@@ -108,16 +314,12 @@ footer {background-color:#2A0051; border:3px solid white; text-align:center; col
     .greylist {background-color:#7F7F7F}
     .blacklist {background-color:#e04006}
 
-/*Construction*/
-.constructtxt {text-align:center;}
-.constructimg {display:block; max-width:50%; height:auto; position:relative; top:50%; left:50%; transform:translate(-50%,0%)}
-
-/*Projects Pages Development*/
+/*Projects Specific*/
 .projectimg {display:block; margin:auto; max-width:90%; height:auto; padding:20px 0px 20px 0px}
 .leftimg {max-width:50px; max-height:50px; float:left}
 .rightimg {max-width:50px; max-height:50px; float:right}
 .liststatus {width:100%; height:auto; margin-bottom:20px; padding-top:20px; padding-bottom:20px;
-    border:3px solid white; border-radius:10px; vertical-align:center;
+    border:3px solid white; border-radius:10px;
     text-align:center; font-family:tahoma; font-size:2em}
         
     /*RSS Feeds*/
@@ -125,13 +327,26 @@ footer {background-color:#2A0051; border:3px solid white; text-align:center; col
         .rss .head {font-size:1.75em; font-family:geneva}
         .rss .date {font-style:italic}
 
+/*For Small Screens (Tablet or Low Res PC)*/
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+    /*Re-organize Columns*/
+    .col-one {width: 100%;}
+    aside {display: none}
+
+    /*Shrink Text*/
+    p {font-size: 1em;}
+
+    /*Remove Elements*/
+    #widget-ticker-preview-btc {display: none}
+    #widget-ticker-preview-usd {display: none}
+    #widget-ticker-preview-gbp {display: none}   
+    .twitter-timeline {display: none}
+}
+
 /*For Tiny Screens (Phones)*/
 @media only screen and (max-width: 800px) {
     [class*="col-"] {width: 100%;}
-
-    /*Nav Bar (Stacked)*/
-    .navlink {border:3px solid white}
-    .navcomment {border-top:none; text-align:center}
 
     .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
 
@@ -139,39 +354,19 @@ footer {background-color:#2A0051; border:3px solid white; text-align:center; col
     .grcimage {box-sizing:border-box; max-width:75%; height:auto; position:relative; transform:translate(0%,0%)}
     .boincimage {box-sizing:border-box; max-width:50%; height:auto; position:relative; transform:translate(0%,0%)}
     
+    /*Re-organize Columns*/
+    .col-one {min-height: auto}
+    .col-two {min-height: auto}
     aside {display: none}
-    }
 
-/*For Small Screens (Tablet or Low Res PC)*/
-@media only screen and (min-width: 800px) and (max-width: 1250px) {
-    
-    /*Layout Columns (Narrow)*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
-    
-    .col-one {box-sizing:border-box; float: left; width: 100%; padding: 15px}
-    .col-two {box-sizing:border-box; float: left; width: 50%; padding: 15px}
-    aside {box-sizing:border-box; float: left; width: 100%; min-height:0%; padding: 15px}
-        aside.left {border:none}
-        aside.right {border:none}
+    /*Remove Elements*/
+    #widget-ticker-preview-btc {display: none}
+    #widget-ticker-preview-usd {display: none}
+    #widget-ticker-preview-gbp {display: none}   
+    .twitter-timeline {display: none}
 
-    /*Nav Bar (Narrow)*/
-    .navlink-s {border:3px solid white}
-    .navcomment {border-top:none; text-align:center}
-
-    .image {box-sizing:border-box; max-width:100%; height:auto; position:relative; top: 50%; left: 50%; transform: translate(-50%,0%)}
-    
-    /*Re-sized Homepage Images*/
-    .grcimage {box-sizing:border-box; max-width:50%; height:auto; position:relative; transform:translate(0%,0%)}
-    .boincimage {box-sizing:border-box; max-width:30%; height:auto; position:relative; transform:translate(0%,0%)}
-    }
+    /*Footer*/
+    footer .foot1 {display: none}
+    footer .foot3 {display: none}
+    footer .foot2 {width: 100%}
+}
