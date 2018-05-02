@@ -1,0 +1,66 @@
+/*Home Page*/
+.grcimg {box-sizing: border-box;
+    display: block;
+    max-width:100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+.boincimg {box-sizing: border-box;
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+/*Links Page*/
+.linkimg {max-width:200px; max-height:100px; height:auto}
+
+/*Listing Table Pages*/
+    /*Main Table Properties*/
+    .projectslist {border:solid white 3px; border-collapse:collapse; background-color:#2A0051}
+        .projectslist td {border:solid white 3px; padding:5px; height:40px; text-align:center}
+        .projectslist tr {height:40px; opacity:1.0;}
+        .projectslist tr:hover {opacity: 1.0;}
+        .projectslist th {font-family:geneva; font-size:1em; font-weight:bold; text-align:center;
+            height:100px; border:solid white 3px; padding:10px}
+        .projectslist img {width:18px; height:20px; margin:0px}
+
+    /*Column Heading Tooltips*/
+    .tooltip {position:relative; display:inline-block; text-decoration:underline dotted white}
+        .tooltip .tooltiptext {visibility:hidden; background-color:black;
+            color:white; text-align:center;
+            border:2px solid white; border-radius:6px;
+            width:180px; padding:10px; margin-left:-90px;
+            position:absolute; z-index:1; bottom:100%; left:50%;}
+        .tooltip:hover .tooltiptext {visibility: visible}
+
+    /*Column Widths*/
+    .col-name {width:10%}
+    .col-votes {width:5%}
+    .col-credit {width:10%}
+    .col-stat {width:5%}
+    .col-list {width:10%}
+    .col-update {width:5%}
+    .col-notes {width:20%}
+
+    /*Conditional Formatting*/
+    .whitelist {background-color:#a6d785; color:#414141}
+    .greylist {background-color:#7F7F7F}
+    .blacklist {background-color:#e04006}
+
+/*Project Data Pages*/
+.projectimg {display:block; margin:auto; max-width:90%; height:auto; padding:20px 0px 20px 0px}
+.leftimg {max-width:50px; max-height:50px; float:left}
+.rightimg {max-width:50px; max-height:50px; float:right}
+.liststatus {width:100%; height:auto; margin-bottom:20px; padding-top:20px; padding-bottom:20px;
+    border:3px solid white; border-radius:10px;
+    text-align:center; font-family:tahoma; font-size:2em}
+        
+    /*RSS Feeds*/
+    .rss {padding:0px 10px 10px 10px; border-bottom:2px solid white}
+        .rss .head {font-size:1.75em; font-family:geneva}
+        .rss .date {font-style:italic}
