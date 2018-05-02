@@ -1,0 +1,187 @@
+/*Header*/
+header {
+    box-sizing: border-box;
+    background: linear-gradient(#6800CB,#2A0051);
+    border: 3px solid white;
+    border-bottom: none;
+    padding: 25px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align: center;
+}
+    header img {
+        display: block;
+        width: 300px;
+        height: 150px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    header h1 {
+        padding-top: 30px;
+    }
+/*Navbar*/
+topnav {
+    box-sizing: border-box;
+}
+    /*Single Link Boxes*/    
+    topnav a {
+        box-sizing: border-box;
+        float: left;
+        display: block;
+        background-color: #2A0051;
+        width: 20%;
+        padding: 14px 16px;
+        border: 3px white solid;
+        color: white;
+        font-family: geneva, sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        text-align: center;
+    }
+    topnav a:hover {
+        background-color: #555;
+        color: white;
+    }
+    /*Dropdown Box*/
+    .dropdown {
+        box-sizing:border-box;
+        float: left;
+        display: block;
+        background-color: #2A0051;
+        width: 20%;
+        padding: 14px 16px;
+        border: 3px white solid;
+        color: white;
+        font-family: geneva, sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        text-align: center;
+        overflow: hidden;
+    }
+    /*Content of Dropdown (Turned Off by Default)*/
+    .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        position: absolute;
+        min-width: 170px;
+        width: 20%;
+        z-index: 1;
+        color: black;
+    }
+        /*Make Dropdown Appear*/
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /*Dropdown Link Boxes*/
+        .dropdown-content a {
+            background-color: inherit;
+            width: 100%;
+            float: none;
+            color: black;
+            text-decoration: none;
+            text-align: left;
+        }
+        .dropdown-content:hover a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+/*Single Full Width Column (No Asides)*/
+.fullwidth {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: #2A0051;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+
+/*Single Main Column Layout*/
+.col-one {
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+
+/*Double Main Column Layout*/
+.col-two {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+/*Side Columns*/
+aside {
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    background-color: #2A0051;
+    padding: 15px;
+    margin: 0px;
+}
+    aside table {
+        margin: auto;
+    }
+    aside table th td {
+        max-height: 30px;
+        max-width: 30px;
+        min-height: 20px;
+        min-width: 20px;
+    }
+    aside img {
+        max-width: 100%;
+        height: auto;
+        padding: 8px;
+    }
+    aside p {
+        font-size: 1.2em;
+    }
+
+/*Footer*/
+footer {
+    box-sizing: border-box;
+    background-color: #2A0051;
+    padding: 15px;
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+}
+    footer .foot1 {
+        float: left;
+        width: 40%;
+        text-align: left;
+    }
+    footer .foot2 {
+        float: left;
+        width: 20%;
+        text-align: center;
+    }
+    footer .foot3 {
+        float: left;
+        width: 40%;
+        text-align: right;
+    }
+        footer table {
+            box-sizing: border-box;
+            float: right;
+        }
+        footer tr {
+            max-height: 30px;
+        }
+        footer .small {
+            max-height: 30px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer .large {
+            max-height: 60px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }

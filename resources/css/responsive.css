@@ -1,0 +1,53 @@
+/*For Small Screens (Tablet or Low Res PC)*/
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+    /*Re-organize Columns*/
+    .col-one {width: 100%;}
+    .col-two {width: 50%;}
+    aside {display: none;}
+
+    /*Shrink Text*/
+    p {font-size: 1em;}
+
+    /*Remove Elements*/
+    #widget-ticker-preview-btc {display: none;}
+    #widget-ticker-preview-usd {display: none;}
+    #widget-ticker-preview-gbp {display: none;}   
+    .twitter-timeline {display: none;}
+}
+
+/*For Tiny Screens (Phones)*/
+@media only screen and (max-width: 800px) {
+    [class*="col-"] {width: 100%;}
+
+    /*Nav-Bar*/
+    topnav a {
+        width: 100%;
+    }
+    .dropdown {
+        width: 100%;
+    }
+    .dropdown-content {
+        width: 100%;
+    }
+
+    /*Re-sized Homepage Images*/
+    .grcimage {box-sizing:border-box; max-width:75%; height:auto; position:relative; transform:translate(0%,0%)}
+    .boincimage {box-sizing:border-box; max-width:50%; height:auto; position:relative; transform:translate(0%,0%)}
+    
+    /*Re-organize Columns*/
+    .col-one {min-height: auto}
+    .col-two {min-height: auto}
+    aside {display: none}
+
+    /*Remove Elements*/
+    #widget-ticker-preview-btc {display: none;}
+    #widget-ticker-preview-usd {display: none;}
+    #widget-ticker-preview-gbp {display: none;}   
+    .twitter-timeline {display: none;}
+
+    /*Footer*/
+    footer .foot1 {display: none}
+    footer .foot3 {display: none}
+    footer .foot2 {width: 100%}
+}
