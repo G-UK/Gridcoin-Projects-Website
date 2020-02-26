@@ -1,11 +1,10 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <script src="/resources/scripts/jquery-3.3.1.min.js"></script>
+    <script src="/resources/scripts/moment.js"></script>
+    <script src="/resources/scripts/moment-timezone-with-data.js"></script>
+    <script src="/resources/scripts/clock.js"></script>
     <!--<script src="/resources/scripts/Chart.js"></script>-->
-    <!-- Matomo -->
-    <script src="https://gridcoin.ddns.net:8062/piwik/piwik.js" async defer></script>
-    <script src="/resources/scripts/tracking.js"></script>
-    <!-- End Matomo Code -->
     <link rel="stylesheet" href="/resources/css/main-style.css">
     <link rel="stylesheet" href="/resources/css/widgets.css">
     <link rel="stylesheet" href="/resources/css/standard-sections.css">

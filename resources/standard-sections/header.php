@@ -1,20 +1,21 @@
-<header>
-    <div>
+<header class=fullwidth>
+    <div class=head1>
+        <p> </p>
+    </div>
+    <div class="head2 title">
         <img
-             src="/resources/images/gridcoin_blocks.png"
-             alt="Join Gridcoin"
-             title="Gridcoin Logo with Background Cubes"
-         >
+            src="/resources/images/gridcoin_blocks.png"
+            alt="Join Gridcoin"
+            title="Gridcoin Logo with Background Cubes"
+        >
+        Gridcoin Projects
     </div>
-    <div>
-        <h1 class="heading">Gridcoin Projects</h1>
+    <div class="head3">
+        <br><br>
+        <h4 class=center>UTC Time</h4>
+        <div id="divUTC" class=center></div>
+        <br>
+        <h4 class=center>Local Time</h4>
+        <div id="divLocal" class=center></div>
     </div>
-    <div class="col-2"></div>
-    <noscript>
-        <p><img
-            src="https://gridcoin.ddns.net:8062/piwik/piwik.php?idsite=1&amp;rec=1"
-            alt="Matomo Analytics Empty Image, Please Read our Privacy Policy"
-            title="Matomo Analytics Empty Image"
-        /></p>
-    </noscript>
 </header>

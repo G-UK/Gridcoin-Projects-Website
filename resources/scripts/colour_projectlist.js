@@ -35,11 +35,11 @@ $(document).ready(function(){
     .addClass("greylist");
     $('td:nth-child(8)').filter('td:contains(Unlisted)')
     .addClass("blacklist");
-    /*Calculated Status*/
-    $('td:nth-child(9)').filter('td:contains(Whitelisted)')
+    /*Recommended Status*/
+    $('td:nth-child(9)').filter('td:contains("Suitable for Rewards")')
     .addClass("whitelist");
     $('td:nth-child(9)').filter('td:contains(Greylisted)')
     .addClass("greylist");
-    $('td:nth-child(9)').filter('td:contains(Unlisted)')
+    $('td:nth-child(9)').filter('td:contains("Unsuitable for Rewards")')
     .addClass("blacklist");
 });

@@ -1,3 +1,10 @@
+/*For Medium Screens (Low Res and 4:3 PC)*/
+@media only screen and (min-width: 1000px) and (max-width: 1450px) {
+
+    .coinmarketcap-currency-widget {display: none;}
+
+}
+
 /*For Small Screens (Tablet or Low Res PC)*/
 @media only screen and (min-width: 800px) and (max-width: 1000px) {
 
@@ -6,13 +13,8 @@
     .col-two {width: 50%;}
     aside {display: none;}
 
-    /*Shrink Text*/
-    p {font-size: 1em;}
-
     /*Remove Elements*/
-    #widget-ticker-preview-btc {display: none;}
-    #widget-ticker-preview-usd {display: none;}
-    #widget-ticker-preview-gbp {display: none;}   
+    .coinmarketcap-currency-widget {display: none;}
     .twitter-timeline {display: none;}
 }
 
@@ -21,7 +23,7 @@
     [class*="col-"] {width: 100%;}
 
     /*Nav-Bar*/
-    topnav a {
+    nav a {
         width: 100%;
     }
     .dropdown {
@@ -41,10 +43,13 @@
     aside {display: none}
 
     /*Remove Elements*/
-    #widget-ticker-preview-btc {display: none;}
-    #widget-ticker-preview-usd {display: none;}
-    #widget-ticker-preview-gbp {display: none;}   
+    .coinmarketcap-currency-widget {display: none;}
     .twitter-timeline {display: none;}
+    header .head1 {display: none;}
+    header .head2 {width: 100%;}
+    header .head3 {display: none;}
+    #divUTC {display: none;}
+    #divLocal {display: none;}
 
     /*Footer*/
     footer .foot1 {display: none}

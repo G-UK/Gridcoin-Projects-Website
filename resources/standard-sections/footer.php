@@ -5,6 +5,8 @@
         Favicons Provided by: <a href="https://www.favicon-generator.org">Favicon Generator</a><br>
         Icons Provided by: <a href="https://www.iconsdb.com">IconsDB</a><br>
         ... And everyone in the wonderful Gridcoin and BOINC Communities!!<br>
+        <br>
+        Gridcoin: Rx7Qvpvc7qEZbrHeJ8ukknJo4Gwrc3unBg
     </div>
     <div class=foot2>
         <strong>Copyright © 2018 G_UK<br></strong>
@@ -12,7 +14,7 @@
         <a href="/pages/legals/cookies-policy.php">Cookies Policy</a><br>
         <a href="/pages/legals/terms.php">Terms &amp; Conditions</a><br>
         <a href="/pages/legals/disclaimer.php">Disclaimer</a><br>
-        <a href="https://github.com/G-UK/Gridcoin-Projects-Website">Website Source Code available on GitHub</a><br>
+        <a href="https://github.com/G-UK/Gridcoin-Projects-Website">Source on GitHub</a><br>
         <a href="https://github.com/G-UK/Gridcoin-Projects-Website/blob/master/LICENSE">GPLv3</a><br>
     </div>
     <div class=foot3>
@@ -90,7 +92,7 @@
                     alt="This site conforms to Level A of the W3C WAI Web Content Accessibility Guidelines 2.0"
                     title="W3C validation badge for WCAG2. Links to this sites hompage validation report"
                     class=small
-                 >
+                >
             </a>
             </td>
         </tr>

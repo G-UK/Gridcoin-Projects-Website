@@ -4,33 +4,67 @@ header {
     background: linear-gradient(#6800CB,#2A0051);
     border: 3px solid white;
     border-bottom: none;
-    padding: 25px;
+    padding: 15px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-align: center;
 }
+    header .head1 {
+        box-sizing: border-box;
+        float:left;
+        width:20%;
+        text-align: center;
+    }
+    header .head2 {
+        box-sizing: border-box;
+        float:left;
+        width:60%;
+        text-align: center;
+    }
+    header .head3 {
+        box-sizing: border-box;
+        float:left;
+        width:20%;
+        text-align: center;
+    }
     header img {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
         width: 300px;
         height: 150px;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,0%);
     }
-    header h1 {
-        padding-top: 30px;
+    header .title {
+        font-family: tahoma, sans-serif;
+        color: white;
+        font-size: 4em;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+    }
+    #divUTC {
+        color: white;
+        font-size: 1.5em;
+        font-style: italic;
+        padding-top: 10px;
+    }
+    #divLocal {
+        color: white;
+        font-size: 1.5em;
+        font-style: italic;
+        padding-top: 10px;
     }
 /*Navbar*/
-topnav {
+nav {
     box-sizing: border-box;
 }
     /*Single Link Boxes*/    
-    topnav a {
+    nav a {
         box-sizing: border-box;
         float: left;
         display: block;
         background-color: #2A0051;
-        width: 20%;
+        width: 25%;
         padding: 14px 16px;
         border: 3px white solid;
         color: white;
@@ -39,11 +73,12 @@ topnav {
         text-decoration: none;
         text-align: center;
     }
-    topnav a:hover {
+    nav a:hover {
         background-color: #555;
         color: white;
     }
-    /*Dropdown Box*/
+/*Not currently needed
+    /*Dropdown Box/
     .dropdown {
         box-sizing:border-box;
         float: left;
@@ -59,7 +94,7 @@ topnav {
         text-align: center;
         overflow: hidden;
     }
-    /*Content of Dropdown (Turned Off by Default)*/
+    /*Content of Dropdown (Turned Off by Default)/
     .dropdown-content {
         display: none;
         background-color: #f9f9f9;
@@ -69,11 +104,11 @@ topnav {
         z-index: 1;
         color: black;
     }
-        /*Make Dropdown Appear*/
+        /*Make Dropdown Appear/
         .dropdown:hover .dropdown-content {
             display: block;
         }
-        /*Dropdown Link Boxes*/
+        /*Dropdown Link Boxes/
         .dropdown-content a {
             background-color: inherit;
             width: 100%;
@@ -86,6 +121,8 @@ topnav {
             background-color: #555;
             color: white;
         }
+
+*/
 
 /*Single Full Width Column (No Asides)*/
 .fullwidth {
@@ -101,7 +138,7 @@ topnav {
 .col-one {
     box-sizing: border-box;
     float: left;
-    width: 60%;
+    width: 56%;
     padding: 15px;
 }
 
@@ -109,7 +146,7 @@ topnav {
 .col-two {
     box-sizing: border-box;
     float: left;
-    width: 30%;
+    width: 28%;
     padding: 15px;
 }
 
@@ -117,17 +154,17 @@ topnav {
 aside {
     box-sizing: border-box;
     float: left;
-    width: 20%;
+    width: 22%;
     background-color: #2A0051;
-    padding: 15px;
+    padding: 5px;
     margin: 0px;
 }
     aside table {
         margin: auto;
     }
-    aside table th td {
-        max-height: 30px;
-        max-width: 30px;
+    aside table th, aside table td {
+        max-height: 40px;
+        max-width: 40px;
         min-height: 20px;
         min-width: 20px;
     }
@@ -135,9 +172,6 @@ aside {
         max-width: 100%;
         height: auto;
         padding: 8px;
-    }
-    aside p {
-        font-size: 1.2em;
     }
 
 /*Footer*/

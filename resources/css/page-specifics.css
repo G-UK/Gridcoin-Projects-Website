@@ -1,27 +1,38 @@
 /*Home Page*/
-.grcimg {box-sizing: border-box;
+.news {
+    padding-top: 20px;
+    border-top: 2px white solid;
+}
+
+.grcimg {
+    box-sizing: border-box;
     display: block;
     max-width:100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
-.boincimg {box-sizing: border-box;
+.boincimg {
+    box-sizing: border-box;
     display: block;
     max-width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 /*Links Page*/
-.linkimg {max-width:200px; max-height:100px; height:auto}
+.linkimg {
+    max-width:200px;
+    max-height:100px;
+    height:auto
+}
 
 /*Listing Table Pages*/
     /*Main Table Properties*/
-    .projectslist {border:solid white 3px; border-collapse:collapse; background-color:#2A0051}
+    .projectslist {display: block; overflow-x: scroll; border:solid white 3px; border-collapse:collapse; background-color:#2A0051}
         .projectslist td {border:solid white 3px; padding:5px; height:40px; text-align:center}
         .projectslist tr {height:40px; opacity:1.0;}
         .projectslist tr:hover {opacity: 1.0;}
@@ -35,7 +46,7 @@
             color:white; text-align:center;
             border:2px solid white; border-radius:6px;
             width:180px; padding:10px; margin-left:-90px;
-            position:absolute; z-index:1; bottom:100%; left:50%;}
+            position:absolute; z-index:1; bottom:-100px; left:0px;}
         .tooltip:hover .tooltiptext {visibility: visible}
 
     /*Column Widths*/
@@ -59,8 +70,30 @@
 .liststatus {width:100%; height:auto; margin-bottom:20px; padding-top:20px; padding-bottom:20px;
     border:3px solid white; border-radius:10px;
     text-align:center; font-family:tahoma; font-size:2em}
-        
-    /*RSS Feeds*/
-    .rss {padding:0px 10px 10px 10px; border-bottom:2px solid white}
-        .rss .head {font-size:1.75em; font-family:geneva}
-        .rss .date {font-style:italic}
+
+.statistics {
+    width: 100%;
+    height: 500px;
+    border: 3px white solid;
+    text-align: center;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+    
+    .statt {
+        border: 3px white solid;   
+    }
+
+    .statc {
+        border: 3px white solid;   
+    }
+
+.newsfeed {
+    height: 500px;
+    overflow: scroll;
+}
+
+.rss {padding:0px 10px 10px 10px; border-bottom:2px solid white}
+    .rss .head {font-size:1.5em; font-family:geneva}
+    .rss .date {font-style:italic}
+    .rss .desc {font-size:1em; line-height:150%}

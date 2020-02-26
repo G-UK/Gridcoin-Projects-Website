@@ -97,7 +97,7 @@
     <h2 class="heading">Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us:</p>
         <ul>
-            <li>By email: <a href=webmaster@gridcoin.ddns.net>webmaster@gridcoin.ddns.net</a></li>
+            <li>By email: <a href=mailto:webmaster@gridcoin.ddns.net>webmaster@gridcoin.ddns.net</a></li>
         </ul>
 </article>
 

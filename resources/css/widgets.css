@@ -20,22 +20,21 @@ a.twitter-timeline {
         border-color: #0089cb;
     }
 
-/*Coin Gecko*/
-#widget-ticker-preview-btc {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    border: 1px solid white;
+/*Coinmarket Cap*/
+.coinmarketcap-currency-widget {
+    overflow: hidden ;
+    margin-bottom: 10px;
 }
-#widget-ticker-preview-usd {
+
+/*Do Not Track, Opt-out Frame*/
+.donottrack {
     box-sizing: border-box;
-    height: 100%;
+    float: left;
     width: 100%;
-    border: 1px solid white;
+    background-color: #414141;
+    margin-bottom: 15px;
+    padding: 15px;
 }
-#widget-ticker-preview-gbp {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    border: 1px solid white;
-}
+
+/*Single Pixel Image for Analytics Tracking*/
+noscript img {border: None}

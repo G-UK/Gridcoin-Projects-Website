@@ -11,7 +11,9 @@
 <?php include('/srv/www/gridcoin.ddns.net/resources/standard-sections/navbar.php');?>
 
 <section class="fullwidth center">
+<br><br>
 <h1>Useful Links</h1>
+<br><br>
 </section>
 
 <!-- Containers for equal height Columns -->
@@ -66,8 +68,8 @@
         <p>Rocket.Chat - <a href="https://chat.gridcoin.io">https://chat.gridcoin.io</a></p>
         <p>Internet Relay Chat (IRC) - <a href="https://kiwiirc.com/client/irc.freenode.net:6697/#gridcoin-help">https://kiwiirc.com/client/irc.freenode.net:6697/#gridcoin-help</a></p>
         <p>Telegram - <a href="https://t.me/gridcoin">https://t.me/gridcoin</a></p>
-        <p>Discord - <a href="https://discord.me/gridcoin">https://reddit.com/r/gridcoin</a></p>
-        <p>Reddit - <a href="https://reddit.com/r/gridcoin">https://bisq.network/</a></p>
+        <p>Discord - <a href="https://discord.me/gridcoin">https://discord.me/gridcoin</a></p>
+        <p>Reddit - <a href="https://reddit.com/r/gridcoin">https://reddit.com/r/gridcoin</a></p>
         <p>Steemit - <a href="https://steemit.com/created/gridcoin">https://steemit.com/created/gridcoin</a></p>
         <p>Twitter - <a href="https://twitter.com/GridcoinNetwork">https://twitter.com/GridcoinNetwork</a></p>
         <p>Facebook - <a href="https://facebook.com/gridcoins">https://facebook.com/gridcoins</a></p>
