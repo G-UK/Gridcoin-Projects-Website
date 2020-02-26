@@ -269,7 +269,7 @@ class TableRows extends RecursiveIteratorIterator {
     function endChildren() {echo "</tr>" . "\n";}}
 $servername = "localhost";
 $username = "php";
-$password = "#qea%vLK3LZw";
+$password = "xxxxxxxxxx";
 $dbname = "grc_listings";
 $column = array(
     'ProjectName',
